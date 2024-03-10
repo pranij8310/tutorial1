@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MSWD</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body bgcolor="FFFBF5">
+
+  <h2 align="center">Online Funds Donation Management System</h2>
+  
+  <nav>
+ <ul>
+    <a href="#precaution">Importance</a>
+    <a href="#about">About</a>
+    <a href="profile.html">Profile</a>
+    <a href="registration.html">register</a>
+</ul>
+  </nav>
+     
+  <br><br>
+<center>
+<form method="post" action="">
+    <table>
+        
+       
+        <tr>
+            <td><label>Enter Full Name</label></td>
+            <td><input type="text" name="sname" required/></td>
+        </tr>
+        <tr>
+            <td><label>Select Gender</label></td>
+            <td><input type="radio" name="Gender" value="MALE"required/>Male
+                <input type="radio" name="Gender" value="FEMALE"required/>Female
+                <input type="radio" name="Gender" value="OTHERS"required/>Others
+            </td>
+        </tr>
+        <br><br
+        <tr>
+            <td><label>Select Date of Birth</label></td>
+            <td><input type="date" name="dob" required/></td>
+        </tr>
+        <br><br>
+        <tr>
+            <td><label>Select Your Country</label></td>
+            <td>
+                <select name="Country" required>
+                    <option value="">--Select--</option>
+                    <option value="India">India</option>
+                    <option value="Others">Others</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Select State</label></td>
+            <td>
+                <select name="State">
+                    <option value="">--Select--</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chattisgarh">Chattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarath">Gujarath</option>
+                    <option value="Hariyana">Hariyana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkand">Jharkand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Odisha">Odisha</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Enter City</label></td>
+            <td><input type="text" name="City" required/></td>
+        </tr>
+       
+        <tr>
+            <td><label>How many times you have donated</label></td>
+            <td>
+                <select name="year" min="1" max="4">
+                    <option value="">--Select--</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="many">many</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Availability</label></td>
+            <td><input type="radio" name="Availability" value="Always"required/>Always
+                <input type="radio" name="Availability" value="Oftenly"required/>Oftenly
+                <input type="radio" name="Availability" value="Sometime"required/>Sometime
+                <input type="radio" name="Availability" value="Rarely"required/>Rarely
+                <input type="radio" name="Availability" value="Never"required/>Never
+            </td>
+        </tr>
+        <tr>
+            <td><label>Enter Email Address</label></td>
+            <td><input type="email" name="emailid" required/></td>
+        </tr>
+        <tr>
+            <td><label>Create Password</label></td>
+            <td><input type="password" name="pwd" required/></td>
+        </tr>
+        <tr>
+            <td><label>Enter Contact No</label></td>
+            <td><input type="text" name="contactno" pattern="[6789][0-9]{9}" placeholder="MUST be 10 Digits" required/></td>
+        </tr>
+        <tr>
+            <td><label>Enter Address</label></td>
+            <td><textarea name="address" required></textarea></td>
+        </tr>
+
+        <tr align="center">
+            <td><input type="submit" value="Register" class="button"/></td>
+            <td><input type="reset" value="Clear" class="button"/></td>
+        </tr>
+    </table>
+
+</form>
+</center>
+<style>
+    body
+     {
+       background-image: url("bb.jpeg");
+       background-repeat: no-repeat;
+       background-size: cover;
+     }</style>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
